@@ -1,0 +1,76 @@
+.text-center{
+    text-align: center;
+}
+h1{
+    color: #1877f2;
+    font-size: 3.5rem;
+}
+
+.title{
+    color: #1877f2;
+}
+.face{
+    font-size: 1.5rem;
+}
+
+.btn-success{
+    background-color: #42b72a;
+}
+/* #face{
+    animation-name: face;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes face{
+    0%{
+        color: #1877f2;
+    }
+    50%{
+        color: #42b72a;
+    }
+    75%{
+        color: yellow;
+    }
+    100%{
+        color: #1877f2;
+    }
+} */
+
+.mx-md-5{
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
+@media screen and (max-width:575px){
+    .p-xs-5{
+        padding: 1rem;
+    }
+
+    .m-xs-5{
+        margin: 1rem;
+    }
+}
+
+#animate{
+    animation-name: animate;
+    animation-duration: 3s;
+   
+}
+@keyframes animate{
+0%{
+    opacity: 0;
+    margin-top: -1000px
+}
+25%{
+    opacity: 0.75;
+}
+75%{
+    opacity: 0.95;
+}
+
+100%{
+    opacity: 1;
+    transition: transform (3s);
+    transform: rotate(360deg);
+}
+}
